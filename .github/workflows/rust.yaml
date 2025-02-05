@@ -13,8 +13,13 @@ on:
 
 env:
   CRATE_NAME: sysmon_cli
-  GITHUB_TOKEN: ${{ github.token }}
   RUST_BACKTRACE: 1
+
+permissions:
+  contents: write
+  packages: write
+  pull-requests: write
+  issues: write
 
 jobs:
   test:
@@ -79,7 +84,7 @@ jobs:
       - name: Configure Git
         run: |
           git config --global user.email "whiterabbit@protonmail.com"
-          git config --global user.name "whit3rabbit"
+          git config --global user.name "WhiteRabbit"
 
       - name: Install musl-tools on Linux
         run: sudo apt-get update --yes && sudo apt-get install --yes musl-tools
