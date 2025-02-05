@@ -127,7 +127,7 @@ This project uses git submodules for test fixtures. The Sysmon Modular configura
 
 ```bash
 # If cloning the repository for the first time
-git clone --recursive https://github.com/yourusername/sysmon_json.git
+git clone --recursive https://github.com/whit3rabbit/sysmon-helper-cli.git
 
 # If you've already cloned the repository
 git submodule init
