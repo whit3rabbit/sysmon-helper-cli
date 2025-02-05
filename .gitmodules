@@ -1,0 +1,3 @@
+[submodule "tests/fixtures/sysmon-modular"]
+	path = tests/fixtures/sysmon-modular
+	url = https://github.com/olafhartong/sysmon-modular.git
